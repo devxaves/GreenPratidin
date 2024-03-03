@@ -5,6 +5,9 @@ import UserButton from "../UserButton/UserButton";
 const linkData = [
   { link: "", label: "Home", icon: Home },
   { link: "", label: "Profile", icon: User },
+  ];
+const additionalLinksData = [
+ 
   { link: "https://aqi-checker.vercel.app/", label: "Air Quality Index", icon: Haze },
   { link: "https://co2-footprint-predictor.streamlit.app/", label: "Carbon Tracker", icon: LeafOff },
   { link: "https://mediafiles.botpress.cloud/e6c594eb-26f3-4ee9-953f-f6329e9e9cf7/webchat/bot.html", label: "AI GreenBot", icon: Robot },
@@ -106,9 +109,17 @@ const Navbar = ({ page, setPage }) => {
     </a>
   ));
 
+const additionalLinks= additionalLinksData.map((item)=>(
+    <a className={classes.link}
+    href={item.link}
+    ><item.icon className={classes.linkIcon} />
+    <span>{item.label}</span>
+    </a>
+  ))
+
   return (
     <NavbarMT width={{ xs: 200, sm: 300 }} p="md" className={classes.navbar}>
-      <NavbarMT.Section grow>{links}</NavbarMT.Section>
+      <NavbarMT.Section grow>{links}{additionalLinks}</NavbarMT.Section>
 
       <NavbarMT.Section className={classes.footer}>
         <UserButton />
