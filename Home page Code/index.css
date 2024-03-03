@@ -1,0 +1,217 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: radial-gradient(110.91% 70.71% at 50% 50%, rgb(164, 255, 161), rgb(231, 255, 226) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    height: 110vh;
+}
+
+.navbar {
+
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 944px;
+    background: rgb(0, 126, 4, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.navbar p {
+    color: green;
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.navbar span {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgb(95, 1, 1);
+}
+
+.home {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.home-image img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    text-align: end;
+}
+
+
+
+.class-1 {
+
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 122px;
+    right: 918px;
+    top: 183px;
+    bottom: 786px;
+    background: linear-gradient(135.00deg, rgb(23, 192, 28), rgba(0, 62, 2, 0.85), rgba(0, 0, 0, 0));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+
+    font-family: Ubuntu;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.class-2 {
+    /* helping to create a Clean and Green Environment */
+    position: absolute;
+    width: 514px;
+    height: 83px;
+    left: 122px;
+    right: 804px;
+    top: 246px;
+    bottom: 695px;
+    color: rgb(0, 0, 0);
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.home-img {
+    margin-left: 500px;
+    margin-top: 40px;
+
+}
+
+.btn-1 {
+    /* Rectangle 8 */
+    position: absolute;
+    width: 219px;
+    height: 55px;
+    left: 122px;
+    right: 1099px;
+    top: 350px;
+    bottom: 571px;
+
+    border: 2px solid rgb(116, 241, 116);
+    border-radius: 39px;
+
+    background: linear-gradient(180.00deg, rgb(0, 126, 4), rgb(0, 215, 7) 100%);
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+.information {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.ask {
+    background: linear-gradient(135.00deg, rgb(87, 51, 0), rgba(0, 0, 0, 0.96), rgba(0, 62, 2, 0.85), rgb(0, 0, 0));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* Who are We? */
+    position: absolute;
+    width: 221px;
+    height: 41px;
+    left: 122px;
+    right: 1097px;
+    top: 500px;
+    bottom: 412px;
+}
+
+.info {
+
+    position: absolute;
+    width: 962px;
+    height: 196px;
+    left: 122px;
+    right: 356px;
+    top: 565px;
+    bottom: 193px;
+    color: rgb(0, 72, 2);
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.info-pic img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1200px;
+    right: 153px;
+    top: 565px;
+    bottom: 229px;
+}
