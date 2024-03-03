@@ -5,7 +5,7 @@ import UserButton from "../UserButton/UserButton";
 const linkData = [
   { link: "", label: "Home", icon: Home },
   { link: "", label: "Profile", icon: User },
-  { link: "https://vercel.com/anirbans-projects/aqi-checker/3SGrTiQqJDNzo1e1x41KJedPYCpy", label: "Air Quality Index", icon: Haze },
+  { link: "https://aqi-checker.vercel.app/", label: "Air Quality Index", icon: Haze },
   { link: "https://co2-footprint-predictor.streamlit.app/", label: "Carbon Tracker", icon: LeafOff },
   { link: "https://mediafiles.botpress.cloud/e6c594eb-26f3-4ee9-953f-f6329e9e9cf7/webchat/bot.html", label: "AI GreenBot", icon: Robot },
 ];
