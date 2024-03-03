@@ -18,7 +18,7 @@ import { showNotification } from '@mantine/notifications';
 import { Edit, Trash, Heart, Share, BrandTwitter, Check } from "tabler-icons-react";
 import FileBase64 from 'react-file-base64'
 
-const tweetUrl = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fsocialbutterfly.vercel.app%2F&text=Check%20out%20this%20cool%20social%20media%20Jamstack%20app%20I%20made%20using%20the%20@MongoDB%20Data%20API%2C%20@Vercel%20serverless%20functions%2C%20@GitHub%2C%20and%20@Auth0%20for%20user%20authentication%21%21%21";
+const tweetUrl = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgreen-pratidin.vercel.app%2F&text=Check%20out%20this%20social%20community%20built%20for%20environmental%20sustainability%20";
 
 const useStyles = createStyles((theme) => ({
   flutter: {
